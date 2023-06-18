@@ -27,7 +27,7 @@ One thing to note is that they used SSDs from both the "original" Hitachi SSD li
 There's also Mixed-Use and Read-Optimized models, and in general, a mixed-use STEC (SS200, SS300, SN200...) drive is
 more like a read-optimized Hitachi drive as far as endurance is concerned.
 In other words, the STEC SSDs are generally faster but not as durable.
-WD/HGST in a move of confidence later killed the HGST products and imho completely lost the race to Micron due to that choice. I read a manager had the task of "streamlining" their product portfolio. Likely that's what happened. 
+(WD/HGST in a move of confidence later killed the HGST products and imho completely lost the race to Micron due to that choice. I read a manager had the task of "streamlining" their product portfolio. Likely that's what happened. )
 
 
 #### HDD
