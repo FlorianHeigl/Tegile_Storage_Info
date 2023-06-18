@@ -67,6 +67,9 @@ Without testing there's no way if the "any IntelliFlash can be attached to a T-S
 
 https://www.reddit.com/r/sysadmin/comments/dmfnaa/comment/j64n1xq/?utm_source=reddit&utm_medium=web2x&context=3
 
+For NVMe drives, I know they are also managable by `nvmeadm` but I do not know more about this. Let's not try on a live system, ok?
+
+
 ### How to query Disk info in decommissioned system and contribute
 
 1. Look for the part number `P/N`
@@ -85,3 +88,28 @@ https://www.reddit.com/r/sysadmin/comments/dmfnaa/comment/j64n1xq/?utm_source=re
 - S -> IDK
 - 21 -> 2-digit number, trailing `1` means SED (encrypting) drive
 
+
+### Code
+
+Zebi - the OS was built on OpenSolaris; I'm only aware of one public patch set, but in general open source licensing (CDDL) should apply to the OS.
+
+Zebi also had homegrown plugins for Sun Cluster to handle the pNFS failover, but those appear to be closed source (C binaries)
+If you have other patches of the OS, or can give guidance which parts are truly OSS, that would help heaps.
+
+If you have a savvy legal team, you should be able to obtain the sources to your OS. This is the classic scenario where a vendor becomes unavailable and OSS licences protect you, would allow you to maintain safe operations by fixing things yourself. I do not know if there's hope, but it goes without saying that being able to put development into the OS would open up a completely different set of options, and vastly extend the lifetime of one's investments.
+
+### decommissioning
+
+1. data erasure
+
+If you need help wiping them, I can provide notes for that, or guide remotely.
+it is easy enough, switching the SED key. to make it proper, collect the serial numbers before hand and mark them as you pull them out of the chassis.
+This procedure might be part of the user manual or knowledge base, I didn't check yet.
+Don't forget the SATA DOMs. They should support Sata secure erase, so if you don't know how to nuke solaris at run-time, you can remove the DOMs and delete them in some supermicro box.
+
+2. hardware proliferation
+
+If this helped you / you want to contribute more
+I would gladly offer a retirement home for your array or parts like the NVDIMMs
+I'm trying to build a second array for labbing out of spare parts.
+Only thing I couldn't use is arrays that are of an older HW generation than mine (so anything with a X10DRS board / Xeon 26xx v3 or better works, the older ones I can't really do anything with)
