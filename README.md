@@ -27,12 +27,13 @@ Development activity is very, very low. This is not just a case of "the system i
 Major developments of the open source ZFS tree have not been ported to Zebi even though they are now stable and readily available.
 
 ### Stability
+
 there was an increase in customer complaints, generally the 'stable' version is supposed to be 3.11, of which there are multiple releases.
 since the customer base is dwindling and updates will not proactively reach all customers you should in general stay on the release that works for you.
 Within limits - it likely should be a 3.11, it should have already have re-factored SATA Doms, and if possible, it should already be a version that supports NDMP or S3 backups.
 
 
-See Reddit if you want to investigate further.
+See [Reddit](https://www.reddit.com/search/?q=tegile) if you want to investigate further.
 
 
 ### Trademark notices
