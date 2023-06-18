@@ -12,6 +12,10 @@ PCIe: 3x half length/half height
 
 The above PSU is a 1200W model, there's a 1400W version too that runs cheaper. Unknown if it's compatible.
 
+SAS Controller:  AOM-S3008-L8SB
+
+SATA DOM: Innodisk SATADOM-ML 3ME3 V2, 256GB DESML-B56D08-CAQC
+
 #### T4100
 X10-DRS-3U
 
@@ -27,8 +31,11 @@ PSU for JBOD (PWS-1K23A-1R)
 #### DIMM
 
 A Smart Memory solutions module, supposedly in native, non-JEDEC mode.
-Sizes: 8GB standard, some newer systems have 16GB, which might be 2*8GB (interleaved, more bandwidth, costs one RAM slot) or 1x16GB.
+Sizes: 8GB standard - this is: SuperMicro Smart 8GB 1Rx4 NN4-2400T-RZZZ-11
+
+some newer systems have 16GB, which might be 2*8GB (interleaved, more bandwidth, costs one RAM slot) or 1x16GB.
 The maximum module size in the series is 32GB.
+
 
 As a rule of thumb, one could imagine that the NVDIMM size ought be sufficient to buffer enough data to sustain multiple cores doing compression/deduplication.
 
@@ -37,7 +44,9 @@ As a rule of thumb, one could imagine that the NVDIMM size ought be sufficient t
 
 For other NVDIMM-N Modules you look for a so-called "PowerGEM". The ones I saw from Tegile use a Varta HVC 90F battery on an unknown module.
 
+### KVM Cable
 
+Supermicro CBL-0218L KVM
 
 
 ## Expansion Cards
