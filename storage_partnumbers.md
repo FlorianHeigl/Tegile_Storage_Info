@@ -23,7 +23,9 @@ This is a list of both SSD and HDD, Info mostly gathered from Ebay auction scree
 |SSD|2000||Optimus ECO TXA2E2|?|SDLLGC6R-020T-5CA1|
 |SSD|2TB + 3.84TB|N5100(*)|SN200|?||
 
-One thing to 
+One thing to note is that they used SSDs from both the "original" Hitachi SSD line, and from the STEC line they bought.
+There's also Mixed-Use and Read-Optimized models, and in general, a mixed-use STEC (SS200, SS300, SN200...) drive is
+more like a read-optimized Hitachi drive as far as endurance is concerned.
 
 
 #### HDD
