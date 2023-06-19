@@ -86,4 +86,5 @@ You want stability, so look for things that come Oracle branded.
 - You will not get a linkup with these HBAs in direct attached scenarios
 - Mode settings via UEFI OPROM have no effect after the OS is up and initializes the NIC. The Solaris and QLA admin tools do not work with the adapter in target mode
 - If you want to use FC, I think you DO NEED a switch, sorry. The cheapest I could get was a Cisco 16G switch, which was kinda hard to reset the password on, but otherwise works fine
-- Upside: The performance is great for a ZFS-based system. Even with PCIe2 HBAs I was able to reach 2-3GB/s to a single host easily
+- Upside: The SAN performance is great for a ZFS-based system
+- Even with PCIe2 HBAs I was able to reach 2-3GB/s to a single host easily, with multiple it went up to somewhere under 5GB/s (fio randrw 256MB)
