@@ -80,7 +80,10 @@ You want stability, so look for things that come Oracle branded.
 |CARD-8G-F-2-T4|Dual 8g FC|?|?|No|
 |CARD-16G-F-2-T4|Dual 16g FC|QLE8362|Oracle QLA8362|Yes|
 
+ #### SAN Advice
 
 - SFP Type is very restricted, you want one with the `-QL` suffix
-
-
+- You will not get a linkup with these HBAs in direct attached scenarios
+- Mode settings via UEFI OPROM have no effect after the OS is up and initializes the NIC. The Solaris and QLA admin tools do not work with the adapter in target mode
+- If you want to use FC, I think you DO NEED a switch, sorry. The cheapest I could get was a Cisco 16G switch, which was kinda hard to reset the password on, but otherwise works fine
+- Upside: The performance is great for a ZFS-based system. Even with PCIe2 HBAs I was able to reach 2-3GB/s to a single host easily
