@@ -42,6 +42,7 @@ See [Reddit](https://www.reddit.com/search/?q=tegile) if you want to investigate
 - For code, help producing readthedocs manuals could be the best that we could do for other users
 - Proof-reading and checking what others wrote, extending it or even just prioritizing
 - making lists what is covered in the official docs and should be described for future generations
+- Links to content that should be preserved but cannot be OSS should be left with a description (i.e. Visio Stencils)
 
 
 ## Trademark notices
