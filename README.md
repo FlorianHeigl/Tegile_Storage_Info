@@ -3,7 +3,7 @@
 
 ## Goal of this project
 
-- create documentation for Tegile Storage Arrays.
+- create open documentation for Tegile Storage Arrays.
 - make it available for users that cannot have the proper support otherwise.
 - draw a distinct line separating vendor-owned documentation that could be
 made inaccessible
