@@ -80,7 +80,7 @@ You want stability, so look for things that come Oracle branded.
 |CARD-8G-F-2-T4|Dual 8g FC|?|?|No|
 |CARD-16G-F-2-T4|Dual 16g FC|QLE8362|Oracle QLA8362|Yes|
 
- #### SAN Advice
+ #### SAN HBA Advice
 
 - SFP Type is very restricted, you want one with the `-QL` suffix
 - You will not get a linkup with these HBAs in direct attached scenarios
