@@ -67,7 +67,7 @@ Without testing there's no way if the "any IntelliFlash can be attached to a T-S
 
 #### Expansions
 
-- InfiniFlash Arrays (IF-100 (6g SAS), IF-150 (12g SAS)
+- SanDisk / WD InfiniFlash Arrays (IF-100 (6g SAS), IF-150 (12g SAS)
 - SuperMicro JBOD enclosures without management
 - SuperMicro JBOD enclosures with right management AND right Firmware
 - SAS expansion cabling redundancy (DDN introduced that for the last series)
