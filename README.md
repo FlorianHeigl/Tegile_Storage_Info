@@ -10,7 +10,7 @@ made inaccessible
 - empower users by giving some option to do self-service at their own discretion
 
 If vendor docs are referenced, it should be in form of a link or the document title, and a description of the content.
-Raw content cannot be included here.
+I think original content cannot be included here, to uphold a free license.
 
 ## Status of the hardware
 
