@@ -16,9 +16,20 @@ RAM: 8GB DDR3 1066 Hyundai
 Node: X9DBS-F  
 Memory: 16GB 2Rx4 PC3L-12800R-11-13-E2, SKhynix HMT42GR7BFR4A-PB (96GB Total)
 
-This model seems to not have an NVDIMM!
+
 
 SATA DOM: Innodisk unknown model
+
+    This model seems to not have an NVDIMM!
+
+#### T3800
+X9DBS-F-2U
+CPU: E5-2450v2 2.5GHz 
+RAM: 96GB RAM
+
+SATA DOM: Innodisk unknown model (Power via Cable)
+
+    This model seems to not have an NVDIMM!
 
 #### T4700
 Node: X10-DRS-2U
