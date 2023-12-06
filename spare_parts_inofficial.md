@@ -5,6 +5,7 @@
 
 ### Chassis / Nodes
 
+----
 
 ### SAS Based, No NVDIMM
 
@@ -30,7 +31,7 @@ RAM: 96GB RAM
 
 SATA DOM: Innodisk unknown model (Power via Cable)
 
-
+----
 
 ### SAS Based, with NVDIMM
 
@@ -51,7 +52,7 @@ SAS Controller:  AOM-S3008-L8SB
 
 SATA DOM: Innodisk SATADOM-ML 3ME3 V2, 256GB DESML-B56D08-CAQC
 
-
+---
 
 ### NVMe based
 
@@ -62,11 +63,20 @@ RAM: 128GB DDR4
 
     This model seems to not have an NVDIMM!
 
+---
 
+### SAS JBOD 
 
-### SAS JBOD (12g / 2.5")
+can anyone fill in the list?
+
+not all have had ipmi monitoring interfaces.
+
+#### JBOD 12g / 2.5" x24
 927R-E2CJB
 PSU for JBOD (PWS-1K23A-1R)
+
+#### JBOD 12g / 2.5" x64
+
 
 
 ### NVDIMM
