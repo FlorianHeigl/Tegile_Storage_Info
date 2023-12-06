@@ -23,8 +23,6 @@ Memory: 16GB 2Rx4 PC3L-12800R-11-13-E2, SKhynix HMT42GR7BFR4A-PB (96GB Total)
 
 SATA DOM: Innodisk unknown model
 
-    This model seems to not have an NVDIMM!
-
 #### T3800
 X9DBS-F-2U
 CPU: E5-2450v2 2.5GHz 
@@ -32,10 +30,9 @@ RAM: 96GB RAM
 
 SATA DOM: Innodisk unknown model (Power via Cable)
 
-    This model seems to not have an NVDIMM!
 
 
-### SAS Based, NVDIMM
+### SAS Based, with NVDIMM
 
 #### T4100
 X10-DRS-3U
@@ -55,7 +52,8 @@ SAS Controller:  AOM-S3008-L8SB
 SATA DOM: Innodisk SATADOM-ML 3ME3 V2, 256GB DESML-B56D08-CAQC
 
 
-### NVMe Models
+
+### NVMe based
 
 #### N5100
 
@@ -125,7 +123,7 @@ You want stability, so look for things that come Oracle branded.
 |CARD-8G-F-2-T4|Dual 8g FC|?|?|No|
 |CARD-16G-F-2-T4|Dual 16g FC|QLE8362|Oracle QLA8362|Yes|
 
- #### SAN HBA Advice
+ ### SAN HBA Advice
 
 - SFP Type is very restricted, you want one with the `-QL` suffix
 - You will not get a linkup with these HBAs in direct attached scenarios
@@ -133,3 +131,13 @@ You want stability, so look for things that come Oracle branded.
 - If you want to use FC, I think you DO NEED a switch, sorry. The cheapest I could get was a Cisco 16G switch, which was kinda hard to reset the password on, but otherwise works fine
 - Upside: The SAN performance is great for a ZFS-based system
 - Even with PCIe2 HBAs I was able to reach 2-3GB/s to a single host easily, with multiple it went up to somewhere under 5GB/s (fio randrw 256MB)
+
+### NVMe advice
+
+The backplane of the T4700 has 4 dual-personality ports and the X10DRS-2U exposes PCI lanes for 4 NVMe Ports.
+Nonetheless, it is NOT functional. This is confirmed by trying and by communication with SuperMicro.
+If you wanted to introduce NVMe SSDs with the older models, you would need to find a (dual-ported) **external** solution.
+
+### SAS Advice
+
+The latest series (6xxx) have introduced a SAS loopback link. This removes one of the SPOF for external storage. It is unclear if this can also be used with the older models, it *should* be a purely software specific choice.
