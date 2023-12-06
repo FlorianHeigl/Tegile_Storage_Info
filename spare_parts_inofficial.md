@@ -60,6 +60,7 @@ SATA DOM: Innodisk SATADOM-ML 3ME3 V2, 256GB DESML-B56D08-CAQC
 #### N5100
 
 CPU: Xeon Silver
+RAM: 128GB DDR4
 
     This model seems to not have an NVDIMM!
 
