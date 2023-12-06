@@ -5,6 +5,11 @@
 
 ### Chassis / Nodes
 
+#### HA2100, SS2100
+
+CPU: 2x Xeon E5620
+NIC: Intel X520-2
+RAM: 8GB DDR3 1066 Hyundai
 
 #### T3200
 
