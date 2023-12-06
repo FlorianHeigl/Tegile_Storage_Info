@@ -5,6 +5,16 @@
 
 ### Chassis / Nodes
 
+
+#### T3200
+
+Node: X9DBS-F  
+Memory: 16GB 2Rx4 PC3L-12800R-11-13-E2, SKhynix HMT42GR7BFR4A-PB (96GB Total)
+
+This model seems to not have an NVDIMM!
+
+SATA DOM: Innodisk unknown model
+
 #### T4700
 Node: X10-DRS-2U
 Power Supply:  PWS-1K23A-1R
