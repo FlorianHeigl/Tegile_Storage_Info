@@ -5,6 +5,9 @@
 
 ### Chassis / Nodes
 
+
+### SAS Based, No NVDIMM
+
 #### HA2100, SS2100
 
 CPU: 2x Xeon E5620
@@ -31,6 +34,15 @@ SATA DOM: Innodisk unknown model (Power via Cable)
 
     This model seems to not have an NVDIMM!
 
+
+### SAS Based, NVDIMM
+
+#### T4100
+X10-DRS-3U
+
+PCIe: 2x half length/half height, 1x half length/full-height slot
+
+
 #### T4700
 Node: X10-DRS-2U
 Power Supply:  PWS-1K23A-1R
@@ -42,10 +54,16 @@ SAS Controller:  AOM-S3008-L8SB
 
 SATA DOM: Innodisk SATADOM-ML 3ME3 V2, 256GB DESML-B56D08-CAQC
 
-#### T4100
-X10-DRS-3U
 
-PCIe: 2x half length/half height, 1x half length/full-height slot
+### NVMe Models
+
+#### N5100
+
+CPU: Xeon Silver
+
+    This model seems to not have an NVDIMM!
+
+
 
 ### SAS JBOD (12g / 2.5")
 927R-E2CJB
