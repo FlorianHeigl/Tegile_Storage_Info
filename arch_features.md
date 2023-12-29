@@ -7,7 +7,7 @@ Quelle: https://www.penguinpunk.net/blog/storage-field-day-6-day-1-tegile/ by Da
 
 Hier zitiert mit Kommentaren:
 
-## Data Reduction:
+## Data Reduction
 
 - In-line deduplication (single threaded per IO stream, latency hit)
 - block level dedupe across media (it will be restricted per pool)
@@ -24,7 +24,7 @@ It worked well enough, tested with ISOs in different VMs and also with updates.
 You have little image sprawl on tegile over update cycles. (besides from snashots)
 
 
-## data protection perspective
+## Data protection perspective
 
 - Instantaneous thin snapshots (true, and seemingly better performance than OpenZFS)
 - point-in-time copies of data, space allocated only for changed blocks (that was nice back then compared to i.e. IBM Storwize)
@@ -42,7 +42,7 @@ You have little image sprawl on tegile over update cycles. (besides from snashot
 - corrupt / mismatched data fixed using blocks from mirrored copy (well not only mirrored I hope)
 
 
-Data recovery perspective:
+## Data recovery perspective
 
 
 - Instantaneous stable Recovery (yes, mapping is very fast too, can be done in one workflow if needed)
