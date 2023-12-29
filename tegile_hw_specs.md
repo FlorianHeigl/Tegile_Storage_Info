@@ -72,6 +72,7 @@ Running virtualized is an unknown field, there are some references for ESXi and 
 QEMU should be able to emulate the WHOLE platform.  
 There are documented emulators for *IPMI, UEFI* and *PCIe Switch*.
 You would need to seed the correct information for them all.
+There's probably NVDIMM-N emulation but the NVDIMM is an *optional* component.
 
 Advice:
 - Don't go down this road if you don't have a few days to investigate.
