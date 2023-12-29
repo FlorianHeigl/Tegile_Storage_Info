@@ -9,7 +9,7 @@ Hier zitiert mit Kommentaren:
 
 ## Data Reduction:
 
-- In-line deduplication (single threaded, latency hit)
+- In-line deduplication (single threaded per IO stream, latency hit)
 - block level dedupe across media (it will be restricted per pool)
 - In-line compression (this works well enough, but also here there's no very lightweight + multithreaded algorithm, latency hit)
 - block level compression - turn on/off at LUN / share level (works well enough)
