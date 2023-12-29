@@ -48,7 +48,7 @@ You have little image sprawl on tegile over update cycles. (besides from snashot
 - Instantaneous stable Recovery (yes, mapping is very fast too, can be done in one workflow if needed)
 - **No** support for chaging volume IDs/serial numbers in this (!Risk!)
 - data-consistent VM snapshots (there's a specific daemon for that which is not well-documented and also not opensource, so security updates cannot be realized)
-- hypervisor integrated (by default? imo no)
+- hypervisor integrated (by default? imo, but there is a `VSS$` Share, if that is enough?)
 - MSFT VSS co-ordinated data-consistent snapshots (daemon)
 - VM-consistent and application-consistent snapshots (daemon?)
 - Intelligent data reconstruction no need to rebuild entire drive only portion of data rebuilt (that sounds like draid, uncertain)
