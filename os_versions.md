@@ -10,11 +10,6 @@ Known / Found issues
 
 So the feature boundary is between these two and you need an intermediary upgrade to pass it.
 
-## Security
-
-There was a [security advisory](https://www.westerndigital.com/support/product-security/wdc-19008-intelliflash-web-management-interface-vulnerability) affecting versions < 3.9.2 
-
-
 
 ## Version history
 
@@ -32,3 +27,11 @@ There was a [security advisory](https://www.westerndigital.com/support/product-s
 
 - 3.11.6.2.8 nov 23
 - 3.11.0.7.3 jul 23
+
+### Versions with security issues
+
+- There was a [security advisory](https://www.westerndigital.com/support/product-security/wdc-19008-intelliflash-web-management-interface-vulnerability) affecting versions < 3.9.2 
+
+- There's no known advisories regarding SSL, SSH, or general Solaris issues that might or might not affect the systems. Assume that some issues may exist.
+- There's no known advisories regarding iSCSI, NFS, SMB issues that might or might not affect the systems. Assume that some issues may exist.
+
