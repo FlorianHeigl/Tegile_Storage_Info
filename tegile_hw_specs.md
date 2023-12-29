@@ -68,6 +68,12 @@ T4200: 13x4TB Disk, 3x 1.92TB SSD
 
 ## Virtualization:
 
-Running virtualized is an unknown field, there are some references for ESXi.
-QEMU should be able to emulate the WHOLE platform (IPMI, UEFI, PCIe Switch)
-Advice: Don't go down this road if you don't have a few days to investigate.
+Running virtualized is an unknown field, there are some references for ESXi and there was a PoC image for ESXi.  
+QEMU should be able to emulate the WHOLE platform.  
+There are documented emulators for *IPMI, UEFI* and *PCIe Switch*.
+You would need to seed the correct information for them all.
+
+Advice:
+- Don't go down this road if you don't have a few days to investigate.
+- The door to putting this under OpenQA control is clearly visible
+- Don't go down that road if you don't have a few months to investigate.
