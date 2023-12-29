@@ -150,4 +150,6 @@ If you wanted to introduce NVMe SSDs with the older models, you would need to fi
 
 ### SAS Advice
 
-The latest series (6xxx) have introduced a SAS loopback link. This removes one of the SPOF for external storage. It is unclear if this can also be used with the older models, it *should* be a purely software specific choice.
+The latest series (6xxx) have introduced a SAS loopback link. This removes one SPOF for storage access. It is unclear if this can also be used with the older models, it *should* be a purely software specific choice.
+
+The type of cable is unknown, but generally it should just be a 12G SAS cable.
