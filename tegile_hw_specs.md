@@ -68,14 +68,16 @@ T4200: 13x4TB Disk, 3x 1.92TB SSD
 
 ## Virtualization:
 
-Running virtualized is an unknown field, there are some references for ESXi and there was a PoC image for ESXi.  
+Running virtualized is an unknown field, there are some references for ESXi and there was a PoC image for ESXi.
+It dates back to 2017, capabilities unknown. 
 QEMU should be able to emulate the WHOLE platform.  
 There are documented emulators for *IPMI, UEFI* and *PCIe Switch*.
 You would need to seed the correct information for them all.
 There's probably NVDIMM-N emulation but the NVDIMM is an *optional* component.
+You can launch Zebi on Hyper-V or Virtualbox (dont remember which) with some effort, but it won't complete boot.
 
 Advice:
-- Don't go down this road if you don't have a few days to investigate.
+- Don't go down this road if you don't have a few weeks to investigate.
 - The door to putting this under OpenQA control is clearly visible
 - Don't go down that road if you don't have a few months to investigate.
 
@@ -104,3 +106,4 @@ ipmi_sim
 ```
 
 source: https://github.com/cminyard/qemu
+
