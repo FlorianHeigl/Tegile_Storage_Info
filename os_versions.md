@@ -10,6 +10,12 @@ Known / Found issues
 
 So the feature boundary is between these two and you need an intermediary upgrade to pass it.
 
+## Security
+
+There was a [security advisory](https://www.westerndigital.com/support/product-security/wdc-19008-intelliflash-web-management-interface-vulnerability) affecting versions < 3.9.2 
+
+
+
 ## Version history
 
 ### Apparent mainline versions
