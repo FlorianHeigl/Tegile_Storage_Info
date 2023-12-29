@@ -3,7 +3,7 @@
 
 Design / Vorstellungen
 
-Quelle: https://www.penguinpunk.net/blog/storage-field-day-6-day-1-tegile/
+Quelle: https://www.penguinpunk.net/blog/storage-field-day-6-day-1-tegile/ by Dan Frith
 
 Hier zitiert mit Kommentaren:
 
