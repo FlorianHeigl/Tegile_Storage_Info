@@ -78,3 +78,29 @@ Advice:
 - Don't go down this road if you don't have a few days to investigate.
 - The door to putting this under OpenQA control is clearly visible
 - Don't go down that road if you don't have a few months to investigate.
+
+
+### Docs
+
+#### umping and loading SMBIOS tables
+
+https://patchwork.kernel.org/project/kvm/patch/1237835465.15558.4.camel@lappy/
+
+#### IPMI-over-LAN for QEMU (option a)
+
+- https://github.com/zexi/vbmc-qemu
+- https://gist.github.com/williamcaban/aba796f856264799326d554ac11a4a66
+
+#### IPMI Sim (option b)
+
+here are some notes about really right eumulation[tm]  http://www.linux-kvm.org/images/7/76/03x08-Juniper-Corey\_Minyard-UsingIPMIinQEMU.ods.pdf
+
+```
+ipmi_sim
+
+-device ipmi-bmc-sim,id=bmc0
+-chardev socket,id=ipmichr0,host=localhost,port=9002,reconnect=10
+-device ipmi-bmc-extern,chardev=ipmichr0,id=bmc0
+```
+
+source: https://github.com/cminyard/qemu
