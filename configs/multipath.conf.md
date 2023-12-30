@@ -2,7 +2,6 @@
 ## multipath.conf
 
 ### As per Oracle documentatiom
-(c) Oracle, not MIT licenced (but also likely not protectable since it is a standard config method)
 
 ```
 defaults {
@@ -68,3 +67,7 @@ devices {
 # multipath -F
 # multipath -v2
 ```
+
+
+these are provided as-is verbatim to the manuals. Not mine and not MIT licenced by me.
+but also likely not protectable since it is a standard config method, and given as an example in the docs.
