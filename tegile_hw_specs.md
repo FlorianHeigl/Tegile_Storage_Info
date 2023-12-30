@@ -68,8 +68,8 @@ T4200: 13x4TB Disk, 3x 1.92TB SSD
 
 ## Virtualization:
 
-Running virtualized is an unknown field, there are some references for ESXi and there was a PoC image for ESXi.
-It dates back to 2017, capabilities unknown. 
+Running virtualized is an unknown field, though I thnk there were some references to ESXi in the boot env?
+ 
 QEMU should be able to emulate the WHOLE platform.  
 There are documented emulators for *IPMI, UEFI* and *PCIe Switch*.
 You would need to seed the correct information for them all.
@@ -81,6 +81,12 @@ Advice:
 - The door to putting this under OpenQA control is clearly visible
 - Don't go down that road if you don't have a few months to investigate.
 
+
+### Virtual Load generators
+
+There was a Hyper-V (`Tegile-IO-HyperV-1.3.zip`) and a VMware load (`Tegile-POC_2_1.ova`) generator.
+It dates back to 2017, capabilities unknown.
+(You get an impression how understaffed they must've kept their professional services considering they never managed to align those two names)
 
 ### Docs
 
