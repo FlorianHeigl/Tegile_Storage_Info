@@ -2,7 +2,7 @@
 ## multipath.conf
 
 ### As per Oracle documentatiom
-(c) Oracle, not MIB licenced (but also likely not protectable since it is a standard config method)
+(c) Oracle, not MIT licenced (but also likely not protectable since it is a standard config method)
 
 ```
 defaults {
@@ -42,7 +42,7 @@ Note the use of Aliases here. It is unclear if there's any information encoded i
 
 ### As per Brocade documentation
 
-(c) Brocade, not MIB licenced (but also likely not protectable since it is a standard config method)
+(c) Brocade, not MIT licenced (but also likely not protectable since it is a standard config method)
 
 ```
 devices {
