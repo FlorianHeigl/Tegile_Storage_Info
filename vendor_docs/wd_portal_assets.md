@@ -1,7 +1,8 @@
 
 
-WD Download asset list 
-a menu source code can be found at
+WD Download asset list:
+
+a download menu source code can be found at
 https://codepen.io/grilchgristle/pen/yGezWV
 
 Judging by the URLs this was part of the WD's enterprise partner portal.
