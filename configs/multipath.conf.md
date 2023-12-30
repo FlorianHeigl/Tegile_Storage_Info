@@ -2,6 +2,7 @@
 ## multipath.conf
 
 ### As per Oracle documentatiom
+(c) Oracle, not MIB licenced (but also likely not protectable since it is a standard config method)
 
 ```
 defaults {
@@ -40,6 +41,8 @@ devices {
 Note the use of Aliases here. It is unclear if there's any information encoded into the WWID that could be decoded to find pool ID or such. For that reason, maintaining aliases could be usefil.
 
 ### As per Brocade documentation
+
+(c) Brocade, not MIB licenced (but also likely not protectable since it is a standard config method)
 
 ```
 devices {
