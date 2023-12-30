@@ -13,7 +13,7 @@
 
 CPU: 2x Xeon E5620
 NIC: Intel X520-2
-RAM: 8GB DDR3 1066 Hyundai
+RAM: 8GB DDR3 1066 Hyundai (48GB per Node?)
 
 #### T3200
 
