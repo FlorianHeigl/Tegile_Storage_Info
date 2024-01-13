@@ -15,6 +15,23 @@ CPU: 2x Xeon E5620
 NIC: Intel X520-2
 RAM: 8GB DDR3 1066 Hyundai (48GB per Node?)
 
+?1x? E5620, ?12GB?, X89DTS-F, 2x 1200W PSU
+
+
+#### ?
+Tegile 16 BAY RACK W/ 
+
+CPU XEON 5620 CPU 2.4 GHZ
+RAM 48GB OF DDR3  (8GB Hynix PC3-10600R HMT31GR7BFR4C-H9)
+Case CSE-836?
+X8-DTH Board
+
+#### T3100
+
+16 BAY 
+CPU 2xXEON INTEL CPU 2.4 GHZ
+48GB
+
 #### T3200
 
 Node: X9DBS-F  
@@ -73,11 +90,84 @@ can anyone fill in the list?
 
 not all have had ipmi monitoring interfaces.
 
+##### J1100 
+
+12*3.5", 4x 6G SAS
+3 x 200GB SSD & 9 x 2TB 7.2K
+no ipmi
+
+##### J2130
+
+16*3.5"
+4x 6G SAS
+12x 3TB HGST HUS724030ALS640 HDD
+4x 400GB HGST HUSMM8040ASS200 SSD
+no ipmi
+
+##### ESH-25-A1
+
+16*3.5", 4x 12G SAS
+Tegile Storage SAN 26TB Expansion Array 
+13x 2TB SAS 3x 250GB SSD JBOD
+no ipmi
+
+
 #### JBOD 12g / 2.5" x24
 927R-E2CJB
 PSU for JBOD (PWS-1K23A-1R)
 
+##### ESF-10
+
+CSE-216
+24x 2.5"
+500GB SSD??
+4x12G SAS
+no ipmi
+
+##### ESH-35 
+
+16*3.5" 3TB
+4x 12G SAS
+no ipmi
+
+##### ESH-65
+
+4U, 72*2.5"
+8 x 200GB SSD
+64 x 1TB 7.2K 2.5"
+4x12G SAS
+no ipmi
+
+##### ES-4000
+
+TEGILE – ES4000, 4U, 72-bay Expansion Shelf – 72 x 1TB 7.2K 2.5”
+4x6G SAS
+no ipmi
+
+##### ES-4100
+
+Tegile ES4100 72*2.5"
+64x 1TB Seagate ST91000640SS 2.5" SAS HDD
+8x 200GB HGST HUSML4020ASS600 2.5" SSD
+
+##### ES-4140
+Tegile ES4140 72*2.5"
+64 or 72 slots?
+4x 6G SAS
+64x 1TB Seagate ST91000640SS 2.5" SAS HDD
+1x 400GB HGST HUSMM8040ASS200 2.5" SSD
+no ipmi
+
 #### JBOD 12g / 2.5" x64
+
+
+
+##### other configurations that existed
+
+1 - (24) 500GB
+2 - (13) 2 TB, (3) SSD – 480 GB
+3 - (6) 250 GB, (18) 1 TB
+4 – (24) 500 GB
 
 
 
