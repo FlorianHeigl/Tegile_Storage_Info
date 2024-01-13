@@ -18,7 +18,9 @@ RAM: 8GB DDR3 1066 Hyundai (48GB per Node?)
 #### T3200
 
 Node: X9DBS-F  
-Memory: 16GB 2Rx4 PC3L-12800R-11-13-E2, SKhynix HMT42GR7BFR4A-PB (96GB Total)
+Memory: 96GB/Node 16GB 2Rx4 PC3L-12800R-11-13-E2, SKhynix HMT42GR7BFR4A-PB
+Case: CSE-937  
+CPU: 2x E5-2620 v2/Node
 
 
 
@@ -26,8 +28,8 @@ SATA DOM: Innodisk unknown model
 
 #### T3800
 X9DBS-F-2U
-CPU: E5-2450v2 2.5GHz 
-RAM: 96GB RAM
+CPU: 2x E5-2450v2 2.5GHz/Node 
+RAM: 96GB RAM / Node
 
 SATA DOM: Innodisk unknown model (Power via Cable)
 
