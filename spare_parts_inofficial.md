@@ -116,8 +116,10 @@ You want stability, so look for things that come Oracle branded.
 |Part|Descr|Core Hardware|Possible Replacement/OEM Part|Tested|
 |----|-----|-----------|------|----|
 |CARD-10G-E-2-BT-T4|Dual 10g RJ45|Intel X540-T2?|Silicom|Yes|
-|CARD-10G-E-2-SFP+|Dual 10g SFP+|Intel X520|Silicom|Yes|
+|CARD-10G-E-2-SFP+|Dual 10g SFP+|Intel X520|Silicom PE210G2SPI9-SR(*)|Yes|
 |CARD-10G-E-4-SFP+|Quad 10g SFP+|Intel x710 or Dual 82559|likely compatible Silicom PE310G4I71L|No|
+
+(*)Silicom PE210G2SPI9-SR was the 10g adapter used in T3200, it should match to this part no.
 
 
  ### 40g NICs
