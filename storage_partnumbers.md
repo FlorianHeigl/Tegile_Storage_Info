@@ -26,8 +26,11 @@ This is a list of both SSD and HDD, Info mostly gathered from Ebay auction scree
 |SSD|2TB + 3.84TB|N5100(*)|SN200|?||
 |SSD|1920|E-Series|MZWLR1T9HCJR (PM1733a)|MPPA5B5Q|||
 |SSD|3840|E-Series|MZWLR3T8HCLS (PM1733a)|MPPA5B5Q|||
+|SSD|3840|E-Series|MZWLJ3T8HBLS (PM1733) |EPK9FB5Q|||
+|SSD|7680|E-Series|MZWLR7T6HBLA (PM1733A)|MPPA5B5Q|||
 |SSD|7860|E-Series|MZWLJ7T6HALA (PM1733a)|EPK9FB5Q|||
 |SSD|15360|E-Series|MZWLJ15THALA (PM1733a)|EPK9FB5Q|||
+|SSD|30720|E-Series|MZWLR30THBLA (PM1733a)|MPPA5B5Q|||
 
 One thing to note is that they used SSDs from both the "original" Hitachi SSD line from HGST, and from the STEC line HGST bought.
 There's also Mixed-Use and Read-Optimized models, and in general, a mixed-use STEC (SS200, SS300, SN200...) drive is
