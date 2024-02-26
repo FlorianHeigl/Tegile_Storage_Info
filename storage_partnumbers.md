@@ -73,7 +73,8 @@ In other words, the STEC SSDs are generally faster but not as durable.
 - 1EX1135 Western Digital  AS P100 FRU Drive w/Carrier HDD 12TB SNGL SAS 4KN SE (HC520)
 
 Note: They were very late / reluctant with adding support for large HDD.
-Without testing there's no way if the "any IntelliFlash can be attached to a T-Series" holds truth with regard to decent sized HDD
+It seems the small number of supported 14-20TB drives came with the 6xxx series.
+Without testing there's no way if the "any IntelliFlash hybrid expansion can be attached to a T-Series" holds truth with regard to decent sized HDD.
 
 ### Things that might work
 
