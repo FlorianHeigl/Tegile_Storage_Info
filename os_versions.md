@@ -35,3 +35,9 @@ So the feature boundary is between these two and you need an intermediary upgrad
 - There's no known advisories regarding SSL, SSH, or general Solaris issues that might or might not affect the systems. Assume that some issues may exist.
 - There's no known advisories regarding iSCSI, NFS, SMB issues that might or might not affect the systems. Assume that some issues may exist.
 
+
+## Setup up repos
+
+The upstream (and cloned local) repositories use a P5P format, docs can be found here:
+https://docs.oracle.com/cd/E36784_01/html/E36856/pkgdelivery.html
+https://www.devtech101.com/how-to-add-a-p5p-pkg-to-a-solaris-11-repo/
