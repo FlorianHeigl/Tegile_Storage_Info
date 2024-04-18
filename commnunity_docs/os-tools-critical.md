@@ -1,16 +1,19 @@
+```
+this also is a contributed document, no warranties, use at own risk and own discretion
+please send PRs for any corrections
+```
 
-----
- # `/usr/bin`
+ ### `/usr/bin`
 
 `/usr/bin/nvdadm` 
-healthcheck und management tool fuer NVDIMM Module
-Subkommandos: 
+healthcheck and management tool for NVDIMM Module
+Subcommands: 
 
 - status
 - health 
 - ...
 
-Guter Status sieht so aus:
+OK Status looks like this:
 
 ```
 Status Summary:
@@ -47,20 +50,22 @@ iraid                   san_odx_trace     spasync
 `/var/support/bin/nvpart.sh`
 
 Erkennt fehlerhaft eingerichtete NVDIMM Module und partioniert sie zur Verwendung neu.
+Detects incorrectly set up NVDIMM modules and repartitions / rearms them for use.
+This is destructive to the module content.
 
 
 ----
 
  ### `/zebi/bin`
 
-Das Script `ha.sh` unter `scripts` ist das Hauptscript fuer das Cluster-Management und erlaubt z.b. Cluster Initialisierung.
-Zum Anlegen eines Clusters (per CLI und auch per GUI) braucht man die WWNs von drei Quorum Disks im System.
-Diese duerfne keine aktiven Reservations haben und duerfen nicht via TCG 'locked' sein.
+The script `ha.sh` under `scripts` is the main script for cluster management and allows e.g. cluster initialisation.
+To create a cluster (via CLI and also via GUI) you need the WWNs of three quorum discs in the system.
+These must not have any active reservations and must not be 'locked' via TCG.
 
 
  ### diskencrypt
 
-Schweizer Taschenmesser fuer das Management der TCG Diskverschluesselung.
+Swiss Army Knife for Management of TCG disk encryption.
 - Lock/Unlock
 - Key Management (Rollover etc)
 - Secure Erase
