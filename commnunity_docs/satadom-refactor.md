@@ -52,7 +52,7 @@ Then, if necessary, discard the TempZebiSystem pool or the ZebiSystem pool.
 
 Then restart, e.g. `# satadom-refactor c1t0d0p0`.
 
-The mirror is rebuilt. If the SATADOMs are already connected, this can take an extremely long time. (10h+). In my case it took about 2-3h for this.
+The mirror is rebuilt. If the SATADOMs are already worn out, this can take an extremely long time. (10h+). In my case it took about 2-3h for this.
 On two non-defective DOMs you can see shorter runtimes - still approx. 1h @ 45MB/s.
 
 Ideally, you should probably replace them before Lifetime drops below 80%.
