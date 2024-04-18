@@ -32,3 +32,7 @@ On my SATADOM only 27GB are occupied, so you don't really need a 256GB DOM, just
 
 It is unclear whether anything sends a TRIM to the modules, the ZFS version used does not recognise a `# zpool trim` command. 
 If necessary, you can do this manually with SATA Secure Erase. It seems best to overhaul the DOMs in another system.
+
+The support status of these SATA DOMs in smartctl is meager at best, some patches didn't ever get upstreamed.
+It appears that the data field `169` is the remaining lifetime pct; but it is not clear if all DOMs fill the value.
+Also, some will not support proper SMART tests.
