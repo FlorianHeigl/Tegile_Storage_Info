@@ -51,7 +51,11 @@ iraid                   san_odx_trace     spasync
 
 Erkennt fehlerhaft eingerichtete NVDIMM Module und partioniert sie zur Verwendung neu.
 Detects incorrectly set up NVDIMM modules and repartitions / rearms them for use.
-This is destructive to the module content.
+- This is DESTRUCTIVE to the module content
+- If you're not having NVDIMMs that can no longer be ARM'ed you don't need this
+- If you have the latest BIOS updates you likely don't even end up in the situation
+- 
+(But I don't know how many Tegile customers got the luxury situation of having an up to date BIOS)
 
 
 ----
