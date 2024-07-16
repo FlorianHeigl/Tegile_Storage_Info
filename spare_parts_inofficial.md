@@ -50,14 +50,17 @@ RAM: 96GB RAM / Node
 
 SATA DOM: Innodisk unknown model (Power via Cable)
 
-----
 
-### SAS Based, with NVDIMM
 
 #### T4100
 X10-DRS-3U
-
+CPU: unknown, 6 core
+RAM: 8x16GB / Node
 PCIe: 2x half length/half height, 1x half length/full-height slot
+
+----
+
+### SAS Based, with NVDIMM
 
 
 #### T4700
