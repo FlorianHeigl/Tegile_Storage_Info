@@ -96,7 +96,7 @@ It is likely that Tegile did not exploit this support, and there are reports onl
 https://www.supermicro.com/en/products/system/2u/2029/ssg-2029p-dn2r24l.cfm
 
 (*)Optane DIMMs are *fast*, but there's *fast* and there's *NVDIMM-N fast*.  
-A single SMART 8GB DDR-2666 Module in my T4700 pushed 3.1M IOPS in `fio`)
+A single SMART 8GB DDR-2400 Module in my T4700 pushed 3.1M IOPS in `fio`)
 
 ---
 
