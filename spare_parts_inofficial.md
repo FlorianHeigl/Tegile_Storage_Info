@@ -89,6 +89,15 @@ Model: 2029p-dn2r24l (Reverse guessed, not entirely sure, but it looks right)
 
     This model seems to not have an NVDIMM!
 
+As far as the supermicro HCL goes, the support for NVDIMM-N was dropped iwth that series.
+There is support for NVDIMM-P (Optane 100), 128GB Modules seem to have been tested.
+It is likely that Tegile did not exploit this support, and there are reports online that a Nimble outran the N5100 series which is out of habit(*) for Tegile.
+
+https://www.supermicro.com/en/products/system/2u/2029/ssg-2029p-dn2r24l.cfm
+
+(*)Optane DIMMs are *fast*, but there's *fast* and there's *NVDIMM-N fast*.  
+A single SMART 8GB DDR-2666 Module in my T4700 pushed 3.1M IOPS in `fio`)
+
 ---
 
 ### SAS JBOD 
