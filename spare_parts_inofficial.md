@@ -72,6 +72,9 @@ The above PSU is a 1200W model, there's a 1400W version too that runs cheaper. U
 
 SAS Controller:  AOM-S3008-L8SB
 
+7*32GB / Node
+NVDIMM: SMART 8GB non-JEDEC
+
 SATA DOM: Innodisk SATADOM-ML 3ME3 V2, 256GB DESML-B56D08-CAQC
 
 ---
