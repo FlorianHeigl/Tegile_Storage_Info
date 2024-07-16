@@ -85,7 +85,7 @@ SATA DOM: Innodisk SATADOM-ML 3ME3 V2, 256GB DESML-B56D08-CAQC
 
 CPU: Xeon Silver 2x/Node
 RAM: 128GB DDR4/Node
-Model: 2029p-dn2r24l (Reverse guessed, not entirely sure, but it looks right)
+SBB Model: 2029P-DN2R24L
 
     This model seems to not have an NVDIMM!
 
@@ -97,6 +97,11 @@ https://www.supermicro.com/en/products/system/2u/2029/ssg-2029p-dn2r24l.cfm
 
 (*)Optane DIMMs are *fast*, but there's *fast* and there's *NVDIMM-N fast*.  
 A single SMART 8GB DDR-2400 Module in my T4700 pushed 3.1M IOPS in `fio`)
+
+#### N6000 
+
+unknown so far
+lots of RAM compared to the smaller ones.
 
 ---
 
