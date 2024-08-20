@@ -97,6 +97,8 @@ The one where you can find specs of had the following IO cards:
 
 Meaning: no extra SAS HBA
 If they had paired this with the IF100/IF150 no extra SAS Ports sounds like a severe bottleneck.
+The IF1xx had 2x4 Ports, 6G for the IF100 and 12G for the IF150.
+The X10DRS-3U came with one FHHL PCIe slot and could have held a matching SAS HBA.
 
 ---
 
