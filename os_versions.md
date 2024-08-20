@@ -13,6 +13,8 @@ So the feature boundary is between these two and you need an intermediary upgrad
 
 ## Version history
 
+The Tegile download mirror is down :(
+
 ### Apparent mainline versions
 
 #### 3.11.0....
