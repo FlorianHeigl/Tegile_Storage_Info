@@ -22,7 +22,7 @@ To write: Contributions are most welcome.
 
 ### EOL overview
 
-Most are now EOL or will be by end of the year.
+Most are now EOL or will be by end of the year 2023.
 Warranty extensions, Sales of upgrades etc. apparently have been declined by the customer representatives.
 There used to be a forever or 5 year or something upgrade policy.
 If that applies to your system, you might still be entitled to service.
