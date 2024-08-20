@@ -31,6 +31,7 @@ If that applies to your system, you might still be entitled to service.
 
 Development is still taking place, but activitiy seems to be very, very low. This is not just a case of "the system is so stable it needs no changes".
 Major developments of the open source ZFS tree have not been ported to Zebi even though they are now stable and readily available.
+The download site is now offline, either it's just in maintenance, or, not unlikely, it can be assumed this means the last customer with a valid support contract has let it expire.
 
 ### Stability
 
