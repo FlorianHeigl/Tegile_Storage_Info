@@ -64,7 +64,7 @@ PCIe: 2x half length/half height, 1x half length/full-height slot
 
 
 #### T4700
-Node: X10-DRS-2U
+Node: X10DRS-2U
 Power Supply:  PWS-1K23A-1R
 PCIe: 3x half length/half height
 
@@ -76,6 +76,27 @@ SAS Controller:  AOM-S3008-L8SB
 NVDIMM: SMART 8GB non-JEDEC
 
 SATA DOM: Innodisk SATADOM-ML 3ME3 V2, 256GB DESML-B56D08-CAQC
+
+### HD2040
+
+### HD2080
+
+High Density model - likely means it was tested with SanDisk/WD InfiniFlash `IF-100` or `IF-150` arrays.
+In practice it's a T4700.
+These apparently also came with a primary Tier of 7.68TB SAS drives.
+
+Node Specs:
+- X10DRS-2U
+- 7*32GB RAM
+- NVDIMM: 8GB 
+- CPU: 2x E5-2860v3
+
+The one where you can find specs of had the following IO cards:
+- 2x16G Fibrechannel (QLE2562)
+- 2x4x10G Ethernet
+
+Meaning: no extra SAS HBA
+If they had paired this with the IF100/IF150 no extra SAS Ports sounds like a severe bottleneck.
 
 ---
 
