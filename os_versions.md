@@ -30,6 +30,7 @@ The Tegile download mirror is down :(
 - 3.11.6.2.8 nov 23
 - 3.11.0.7.3 jul 23
 - 3.11.6.3.13 apr 24
+- xx.xx jul 24
 
 Basically, the 3.11.6 series will only successfully install on the newer 5xxx or maybe even only `6xxx` series unless you throw some **serious time** at it.
 The 3.11.6 series probably also seems to be the one one that supports redundant SAS loop cabling which is a huge loss.
