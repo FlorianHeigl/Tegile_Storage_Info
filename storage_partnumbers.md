@@ -17,16 +17,17 @@ This is a list of both SSD and HDD, Info mostly gathered from Ebay auction scree
 |SSD|500||MUSMR1650ASS201|B300|0B32233|
 |SSD|960|T4700|SS200 SXHLLL|X130|0TS1397|
 |SSD|1000|T4700|HUSMR1610ASS201|B300|0B32235|
-|SSD|1600|HUSMR3216ASS205 (SS300)||0B29793|
-|SSD|960|HUSMR7696BDP3Y1 (SN200)|?|0T81354|
+|SSD|1600||HUSMR3216ASS205 (SS300)||0B29793|
+|SSD|960||HUSMR7696BDP3Y1 (SN200)|?|0T81354|
 |SSD|1920||HUSMR1619ASS235|D1C0|0B32297|
 |SSD|1920|ESF-xx|HUSMR1619ASS231|B1C0||
 |SSD|1920|N-Series|SN200|D110|0TS1889|
-|SSD|2000||Optimus ECO TXA2E2|?|SDLLGC6R-020T-5CA1|
+|SSD|2000|HA-Series|Optimus ECO TXA2E2|?|SDLLGC6R-020T-5CA1|
 |SSD|2TB + 3.84TB|N5100(*)|SN200|?||
 |SSD|1920|E-Series|MZWLR1T9HCJR (PM1733a)|MPPA5B5Q|||
 |SSD|3840|E-Series|MZWLR3T8HCLS (PM1733a)|MPPA5B5Q|||
 |SSD|3840|E-Series|MZWLJ3T8HBLS (PM1733) |EPK9FB5Q|||
+|SSD|7680|HD-Series|SS200| X150|||
 |SSD|7680|E-Series|MZWLR7T6HBLA (PM1733A)|MPPA5B5Q|||
 |SSD|7860|E-Series|MZWLJ7T6HALA (PM1733a)|EPK9FB5Q|||
 |SSD|15360|E-Series|MZWLJ15THALA (PM1733a)|EPK9FB5Q|||
@@ -36,6 +37,7 @@ One thing to note is that they used SSDs from both the "original" Hitachi SSD li
 There's also Mixed-Use and Read-Optimized models, and in general, a mixed-use STEC (SS200, SS300, SN200...) drive is
 more like a read-optimized Hitachi drive as far as endurance is concerned.
 In other words, the STEC SSDs are generally faster but not as durable.
+Before that they also used some 2TB model, probably the Optimus/?!?!
 
 (WD/HGST in a move of confidence later killed the HGST products and imho completely lost the race to Micron due to that choice. I read a manager had the task of "streamlining" their product portfolio. Likely that's what happened. )
 
@@ -87,6 +89,17 @@ Without testing there's no way if the "any IntelliFlash hybrid expansion can be 
 - SuperMicro JBOD enclosures without management
 - SuperMicro JBOD enclosures with right management AND right Firmware
 - SAS expansion cabling redundancy (DDN introduced that for the last series)
+
+**InfiniFlash Array** used in combination with the HD series:  
+This uses 8TB SAS flash modules in a JBOD fashion. It can hold ~60 of them, so this is the capacity monster among all options.
+The flash modules themselves have some flash management controller on board and seem to be good endurance, but not high-performing.
+So this JBOD is great for things like lower-latency large-size data tiers, but will need a faster layer for the metadata.
+
+**4U 2.5" SAS Arrays** used with the HA series:
+those could hold 50-ish disks in 4U. you could get a large amount of 1TB (7.2k) SAS drives, plus a few SSDs as a cache/meta tier.
+lternatively, they forewent the cache/meta tier and used 2TB SAS SSDs in the HA series before this.  
+those were the 2TB SanDisk Optimus ECO 6G SAS drives
+
 
 
 ## Contributing
