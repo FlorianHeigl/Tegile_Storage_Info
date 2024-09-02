@@ -29,8 +29,13 @@ A release would normally consist of
 Sometimes you'll also see add-ons like
 - Release Notes for Customer (not publicly available most of the time)
 - Release Notes for internal use (same but more verbose/more content but made available publicly. At least not regularly.)
-- WAR File containing just the web management and/or hotfixes/feature upgrades
-- Support Tool bundle being updated/refreshed. (This seems to be both a `sosreport` style collector tool and the tools the CE will use for their own maintenance work. None of this will be safe to use for other parties without direction by support personell)
+- WAR File containing just the web management (named "Skywalk"?) and/or hotfixes/feature upgrades
+- Support Tool bundle being updated/refreshed (*)
+
+
+
+(*)This seems to be both a `sosreport` style collector tool and the tools the CE will use for their own maintenance work.  
+None of this will be safe to use for other parties without direction by support personell.
 
 ## Version history
 
