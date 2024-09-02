@@ -3,6 +3,9 @@ this also is a contributed document, no warranties, use at own risk and own disc
 please send PRs for any corrections
 ```
 
+## KVM
+
+You should _really_ buy an OOB license for the systems if you want to keep using them without vendor support. They're cheap, you need the one that is around $30 (OOB+KVM), not the $130 one (Enterprise management)
 
 
 ## BIOS KVM-USB ISO Boot
