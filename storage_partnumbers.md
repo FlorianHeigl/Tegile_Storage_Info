@@ -95,7 +95,7 @@ This uses 8TB SAS flash modules in a JBOD fashion. It can hold ~60 of them, so t
 The flash modules themselves have some flash management controller on board and seem to be good endurance, but not high-performing.
 So this JBOD is great for things like lower-latency large-size data tiers, but will need a faster layer for the metadata.
 
-**4U 2.5" SAS Arrays** used with the HA series:
+**4U 2.5" SAS Arrays** used with the HA series:  
 those could hold 50-ish disks in 4U. you could get a large amount of 1TB (7.2k) SAS drives, plus a few SSDs as a cache/meta tier.
 lternatively, they forewent the cache/meta tier and used 2TB SAS SSDs in the HA series before this.  
 those were the 2TB SanDisk Optimus ECO 6G SAS drives
