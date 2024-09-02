@@ -11,9 +11,30 @@ Known / Found issues
 So the feature boundary is between these two and you need an intermediary upgrade to pass it.
 
 
+### Status
+
+The Tegile download mirror is down^W^W back up.
+It's likely that DDN will disable it once there's no customer entitled for access.
+
+## Release files
+
+A release would normally consist of
+- ISO File (used in fresh reinstalls of a node etc)
+- ISO File md5 checksum
+- upgrade.tar.gz (used in upgrades/rolling upgrades)
+- upgrade.tar.gz md5 checksum
+- User Manual (Accessible via Web GUI)
+- API Docs (Accessible via Web GUI)
+
+Sometimes you'll also see add-ons like
+- Release Notes for Customer (not publicly available most of the time)
+- Release Notes for internal use (same but more verbose/more content but made available publicly. At least not regularly.)
+- WAR File containing just the web management and/or hotfixes/feature upgrades
+- Support Tool bundle being updated/refreshed. (This seems to be both a `sosreport` style collector tool and the tools the CE will use for their own maintenance work. None of this will be safe to use for other parties without direction by support personell)
+
 ## Version history
 
-The Tegile download mirror is down :(
+
 
 ### Apparent mainline versions
 
@@ -44,7 +65,7 @@ So far, no public table of features in the various trees has been sighted.
 - There's no known advisories regarding iSCSI, NFS, SMB issues that might or might not affect the systems. Assume that some issues may exist.
 
 
-## Setup up repos
+## Setup up repos (for addons or to ensure long-term sustainability)
 
 The upstream (and cloned local) repositories use a P5P format, docs can be found here:
 https://docs.oracle.com/cd/E36784_01/html/E36856/pkgdelivery.html
