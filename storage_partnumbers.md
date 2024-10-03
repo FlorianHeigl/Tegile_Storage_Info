@@ -85,7 +85,7 @@ Without testing there's no way if the "any IntelliFlash hybrid expansion can be 
 
 #### Expansions
 
-- SanDisk / WD InfiniFlash Arrays (IF-100 (6g SAS), IF-150 (12g SAS)
+- SanDisk / WD InfiniFlash Arrays (IF-100 (6g SAS), IF-150 (12g SAS). There's clear references to the IF-100 (as sandiskif100), not to the IF-150, but the IF-150 is the much more desirable model...
 - SuperMicro JBOD enclosures without management
 - SuperMicro JBOD enclosures with right management AND right Firmware
 - SAS expansion cabling redundancy (DDN introduced that for the last series)
