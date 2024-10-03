@@ -57,6 +57,7 @@ None of this will be safe to use for other parties without direction by support 
 - 3.11.0.7.3 jul 23
 - 3.11.6.3.13 apr 24
 - 3.11.6.4.3 jul 24
+- 3.11.6.5 sep 24
 
 Basically, the 3.11.6 series will only successfully install on the newer `5xxx` or maybe even only `6xxx` series unless you throw some **serious time** at it.
 The 3.11.6 series probably also seems to be the only one that supports **redundant** SAS loop cabling which is a huge loss.
