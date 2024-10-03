@@ -125,9 +125,9 @@ For NVMe drives, I know they are also managable by `nvmeadm` but I do not know m
 ### How to read HGST / WD part numbers
 
 - H -> Hitachi
-- U -> Ultrastar Line (Ex-IBM DDYS etc), this held true regarding the disk chassis etc for many years. For SSD, there's no as strict relationship with IBM, though IBM afaik only used HGST drives for their pSeries and StorWize arrays etc whenever not using something home-grown
+- U -> Ultrastar Line (Ex-IBM DDYS etc), this held true regarding the disk chassis etc for many years. For SSD, there's no as strict relationship with IBM, though IBM primarily used HGST drives for their pSeries and StorWize arrays etc whenever not using something home-grown
 - S -> SAS device
-- Numbers -> RPM, Series, Capacity, SAS Speed (726020 -  7200rpm, 6g sas, idk, 2.0TB; MR1650ASS201 - MLC or equiv? Mainstream?, Read Optimized, 12g sas, idk, 500GB)
+- Numbers -> RPM, Series, Capacity, SAS Speed (726020 -  7200rpm, 6g sas, idk, 2.0TB; MR1650ASS201 - MLC or equiv? Mainstream?, Read Optimized, 12g sas, idk, 500GB). (MM is 'mainstream endurance' which in HGST terms was 10 DWD.
 - A/B -> Revision, there will only be a second revision upon major issues. So if there IS a `B` revision, avoid the `A`.
 - L -> IDK
 - S -> IDK (SS could mean dualport?)
