@@ -128,6 +128,21 @@ lots of RAM compared to the smaller ones.
 
 ---
 
+#### N5800
+
+Node Specs:
+
+- 2x Xeon Gold 6138T (20C/40T)
+- 512GB Ram
+- 2x SATA DOM (256GB)
+- 4x 12G SAS (AOM)
+- 2x 10G Eth
+- 2x PCIe (might be 1x, could not find good pictures)
+
+24x NVMe
+
+This model has a dedicated VGA port, no breakout cable needed.
+
 ### SAS JBOD 
 
 can anyone fill in the list?
