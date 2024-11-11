@@ -126,7 +126,6 @@ A single SMART 8GB DDR-2400 Module in my T4700 pushed 3.1M IOPS in `fio`)
 unknown so far
 lots of RAM compared to the smaller ones.
 
----
 
 #### N5800
 
@@ -142,6 +141,8 @@ Node Specs:
 24x NVMe
 
 This model has a dedicated VGA port, no breakout cable needed.
+
+---
 
 ### SAS JBOD 
 
