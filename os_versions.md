@@ -68,8 +68,8 @@ So far, no public table of features in the various trees has been sighted.
 
 - There was a [security advisory](https://www.westerndigital.com/support/product-security/wdc-19008-intelliflash-web-management-interface-vulnerability) affecting versions < 3.9.2 
 
-- There's no known advisories regarding SSL, SSH, or general Solaris issues that might or might not affect the systems. Assume that some issues may exist.
-- There's no known advisories regarding iSCSI, NFS, SMB issues that might or might not affect the systems. Assume that some issues may exist.
+- There's no known published advisories regarding SSL, SSH, or general Solaris issues that might or might not affect the systems, irrespective of advisories published by the projects themselves. Assume that some issues may exist.
+- There's no known published advisories regarding iSCSI, NFS, SMB issues that might or might not affect the systems, irrespective of advisories published by the projects themselves. Assume that some issues may exist.
 
 
 ## Setup up repos (for addons or to ensure long-term sustainability)
