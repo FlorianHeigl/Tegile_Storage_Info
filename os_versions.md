@@ -59,10 +59,13 @@ None of this will be safe to use for other parties without direction by support 
 - 3.11.6.4.3 jul 24
 - 3.11.6.5 sep 24
 - 3.11.6.5.13 dec 24
+- 3.11.6.6 apr 25
 
 Basically, the 3.11.6 series will only successfully install on the newer `5xxx` or maybe even only `6xxx` series unless you throw some **serious time** at it. It seems the H6200 are the last arrays standing - somewhere.
 The 3.11.6 series probably also seems to be the only one that officially supports **redundant** SAS loop cabling which is a huge loss.
 So far, no public table of features in the various trees has been sighted.
+3.11.6.6 was most likely only released to a very small number of remaining customers.
+(if that's you, please invoke your license rights to get the CDDL sources for your OS)
 
 ### Versions with security issues
 
