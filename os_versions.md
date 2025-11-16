@@ -32,10 +32,11 @@ Sometimes you'll also see add-ons like
 - WAR File containing just the web management (named "Skywalk"?) and/or hotfixes/feature upgrades
 - Support Tool bundle being updated/refreshed (*)
 
+#### Notes
 
-
-(*)This seems to be both a `sosreport` style collector tool and the tools the CE will use for their own maintenance work.  
+- (*)This seems to be both a `sosreport` style collector tool and the tools the CE will use for their own maintenance work.  
 None of this will be safe to use for other parties without direction by support personell.
+- if you have an ongoing support contract, still, please do press for the release notes and, if your TOS allows, publish them / send a PR.
 
 ## Version history
 
@@ -60,6 +61,9 @@ None of this will be safe to use for other parties without direction by support 
 - 3.11.6.5 sep 24
 - 3.11.6.5.13 dec 24
 - 3.11.6.6 apr 25
+
+### latest version
+
 - 3.11.6.6.13 aug 25
 
 Basically, the 3.11.6 series will only successfully install on the newer `5xxx` or maybe even only `6xxx` (H6200 is referenced) series unless you throw some **serious time** at it. It seems the H6200 are the last arrays standing - somewhere.
