@@ -83,4 +83,7 @@ The following commands set it right again for the important FS.
 ```
 
 
+If you need more advice on the mountpoints / file layout, the script [`upgrade-solution.sh`](https://web.archive.org/web/20251116164330/http://s1.tegile.com/ps/fw/upgrade_solution.sh) gives you some more insights
+
+
 (sorry for the crappy english, had to autotranslate for time reasons)
