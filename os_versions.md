@@ -60,6 +60,7 @@ None of this will be safe to use for other parties without direction by support 
 - 3.11.6.5 sep 24
 - 3.11.6.5.13 dec 24
 - 3.11.6.6 apr 25
+- 3.11.6.6.13 aug 25
 
 Basically, the 3.11.6 series will only successfully install on the newer `5xxx` or maybe even only `6xxx` (H6200 is referenced) series unless you throw some **serious time** at it. It seems the H6200 are the last arrays standing - somewhere.
 The 3.11.6 series probably also seems to be the only one that officially supports **redundant** SAS loop cabling which is a huge loss.
