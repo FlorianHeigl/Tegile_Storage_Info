@@ -31,7 +31,7 @@ If that applies to your system, you might still be entitled to service.
 
 Development is still taking place, but activitiy seems to be very, very low. This is not just a case of "the system is so stable it needs no changes".
 Major developments of the open source ZFS tree have not been ported to Zebi even though they are now stable and readily available.
-The download site is now offline, either it's just in maintenance, or, not unlikely, it can be assumed this means the last customer with a valid support contract has let it expire.
+The download site is sometimes offline (https seems gone forever), either it's just in maintenance, or, not unlikely, it can be assumed this means the last customer(s) with a valid support contract had let it expire, some updates indicate they happen to sometimes find another forgotten client. :-/
 
 ### Stability
 
@@ -52,6 +52,11 @@ See [Reddit](https://www.reddit.com/search/?q=tegile) if you want to investigate
 - Proof-reading and checking what others wrote, extending it or even just prioritizing
 - making lists what is covered in the official docs and should be described for future generations
 - Links to content that should be preserved but cannot be OSS should be left with a description (i.e. Visio Stencils)
+
+### Donations
+
+I can't find if I actually mentioned this, I'd absolutely appreciate some old Array and Disk/SSD for it.
+I had to part from mine since proved increbibly valuable during a migration. Probably I'll get one more for debugging help, but that still leaves me short on SSDs or the late HDD types (12T+).
 
 
 ## Trademark notices
