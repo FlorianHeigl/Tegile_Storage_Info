@@ -57,6 +57,7 @@ See [Reddit](https://www.reddit.com/search/?q=tegile) if you want to investigate
 
 I can't find if I actually mentioned this, I'd absolutely appreciate some old Array and Disk/SSD for it.
 I had to part from mine since proved increbibly valuable during a migration. Probably I'll get one more for debugging help, but that still leaves me short on SSDs or the late HDD types (12T+).
+With sufficient disk space, it could be useful instead of just having it there 'in case I need to look something up'...
 
 
 ## Trademark notices
