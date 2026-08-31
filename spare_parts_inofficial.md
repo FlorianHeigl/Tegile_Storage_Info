@@ -28,9 +28,11 @@ X8-DTH Board
 
 #### T3100
 
-16 BAY 
-CPU 2xXEON INTEL CPU 2.4 GHZ
-48GB
+16 BAY 3.5"
+Board: X9DBS-F
+CPU 2xXEON E5-2607 v2 2.4 GHZ
+48GB DDR3
+Case: 
 
 #### T3200
 
@@ -44,7 +46,7 @@ CPU: 2x E5-2620 v2/Node
 SATA DOM: Innodisk unknown model
 
 #### T3800
-X9DBS-F-2U
+Board: X9DBS-F-2U
 CPU: 2x E5-2450v2 2.5GHz/Node 
 RAM: 96GB RAM / Node
 
@@ -53,7 +55,7 @@ SATA DOM: Innodisk unknown model (Power via Cable)
 
 
 #### T4100
-X10-DRS-3U
+Board: X10-DRS-3U
 CPU: unknown, 6 core
 RAM: 8x16GB / Node
 PCIe: 2x half length/half height, 1x half length/full-height slot
@@ -86,8 +88,8 @@ In practice it's a T4700.
 These apparently also came with a primary Tier of 7.68TB SAS drives.
 
 Node Specs:
-- X10DRS-2U
-- 7*32GB RAM
+- Board: X10DRS-2U
+- RAM: 7*32GB RAM
 - NVDIMM: 8GB 
 - CPU: 2x E5-2860v3
 
@@ -98,7 +100,7 @@ The one where you can find specs of had the following IO cards:
 Meaning: no extra SAS HBA
 If they had paired this with the IF100/IF150 no extra SAS Ports sounds like a severe bottleneck.
 The IF1xx had 2x4 Ports, 6G for the IF100 and 12G for the IF150.
-The X10DRS-3U came with one FHHL PCIe slot and could have held a matching SAS HBA.
+The `X10DRS-3U` came with one FHHL PCIe slot and could have held a matching SAS HBA.
 
 ---
 
@@ -197,6 +199,12 @@ no ipmi
 64 x 1TB 7.2K 2.5"
 4x12G SAS
 no ipmi
+
+##### HE50-C1
+
+3U, 16x 3.5"
+4x 12G SAS
+has ipmi
 
 ##### ES-4000
 
