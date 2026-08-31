@@ -15,7 +15,7 @@ CPU: 2x Xeon E5620
 NIC: Intel X520-2
 RAM: 8GB DDR3 1066 Hyundai (48GB per Node?)
 
-?1x? E5620, ?12GB?, X89DTS-F, 2x 1200W PSU
+1x E5620, 24GB, X89DTS-F, 2x 1200W PSU
 
 
 #### ?
